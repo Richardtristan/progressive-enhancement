@@ -1,1 +1,26 @@
+body {
+    max-width: 90%;
+  }
 
+p {
+font-family: serif;
+line-height: 200%;
+color: #3d0066;
+}
+
+footer {
+font-family: serif;
+line-height: 200%;
+color: #cc3300;
+}
+
+a:link {
+	color:  green;
+}
+
+a:visited {
+  color: #ff8c1a;
+}
+
+a:hover {
+  color: #cc3300;
