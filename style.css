@@ -1,3 +1,6 @@
+.page-header{
+	color: firebrick ;
+}
 body {
 	max-width: 90%;
 	margin: auto;
@@ -47,6 +50,21 @@ blockquote p {
 	margin-bottom: 80px;
 	font-size: 160%;
 
+}
+
+table {
+	color : blue;
+}
+
+.title {
+	color : darkblue;
+}
+
+.conclu{
+color : darkblue;
+}
+.story{
+color : darkblue;
 }
 
 .phrase{
