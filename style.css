@@ -1,17 +1,19 @@
 body {
-    max-width: 90%;
+	max-width: 90%;
+	margin: auto;
+	background: rgb(0,212,255);
+    background: radial-gradient(circle, rgba(0,212,255,0.876721635919993) 41%, rgba(116,116,187,1) 93%, rgba(0,236,255,1) 100%); 
+    background-image: url("https://m1.lmcdn.fr/media/1/5bedd1491a8f3118013c85c0/.jpg?width=650&height=650&format=jpg&quality=80&fit=bounds");
+    background-repeat: no-repeat;
+    background-position: : bottom;
+    background-position: right;
+    background-size: cover;
   }
 
 p {
-font-family: serif;
-line-height: 200%;
-color: #3d0066;
-}
-
-footer {
-font-family: serif;
-line-height: 200%;
-color: #cc3300;
+	font-family: serif;
+	line-height: 200%;
+	color: #3d0066;
 }
 
 a:link {
@@ -24,3 +26,30 @@ a:visited {
 
 a:hover {
   color: #cc3300;
+}
+
+footer {
+  	font-family: serif;
+  	line-height: 200%;
+  	color: #cc3300;
+}
+
+blockquote {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	padding: 30px;
+	background-color: #c2d6d6;
+	border: solid 3px Firebrick;
+}
+blockquote p {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-size: 160%;
+
+}
+
+.phrase{
+	width: 50%;
+	margin: auto;
+}
