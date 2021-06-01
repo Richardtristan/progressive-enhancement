@@ -3,6 +3,8 @@
 }
 
 body {
+    color: #3d0066;
+	font-family: 'Open Sans', serif;
 	max-width: 90%;
 	margin: auto;
 	background: rgb(0,212,255);
@@ -28,9 +30,7 @@ body .fermier{
 }
 
 p {
-	font-family: serif;
 	line-height: 200%;
-	color: #3d0066;
 }
 
 a:link {
@@ -67,14 +67,6 @@ blockquote p {
 	font-style: italic;
 }
 
-table {
-	color : blue;
-}
-
-title {
-	color : darkblue;
-}
-
 .table1{
 	padding: 20px;
 }
@@ -89,11 +81,6 @@ td {
 	border: solid 2px black;
 }
 
-.conclu{
-	color : darkblue;
-}
-.story{
-	color : darkblue;
 }
 
 .phrase{
@@ -118,30 +105,74 @@ td {
 	color: black;
 }
 
-.pousseleve:after{
+.pousseleve{
 	background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Keller-3.31/master/Assets/bien.png?token=AUEZCU7NK4QFS52DPUQIK3DAX46F4);
-	content: "";
-	display: inline-block;
 	background-repeat: no-repeat;
-	height: 50px;
-	width: 50px;
-}
+    background-size: 1,5em;
+	background-position: 22em;
+	padding: 1.25em;
+	margin: 1em;
+		padding-bottom: 1em;
+	}
 
-.poussebaisse:after{
+.poussebaisse{
 	background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Keller-3.31/master/Assets/mal.png?token=AUEZCU25GO4BC2RQDR5PGMLAX5CX4);
-	content: "";
-	display: inline-block;
 	background-repeat: no-repeat;
-	height: 50px;
-	width: 50px;
+    background-size: 1,5em;
+	background-position: 22em;
+	padding: 1.25em;
+	margin: 1em;
+		padding-bottom: 1em;
+}
+
+.chat{
+background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Keller-3.31/master/Assets/chat.png?token=AUEZCU6VXWY3EYNTWR342W3AX5DSM);
+	background-repeat: no-repeat;
+    background-size: 1,5em;
+	background-position: 22em;
+	padding: 1.25em;
+	margin: 1em;
+		padding-bottom: 1em;
+}
+
+.people{
+		margin: 2em;
+			padding: 0.25em;
+}
+
+.first{
+	font-weight: bold;
+}
+
+.picture{
+	float: left;
+	margin: 10px;
+}
+
+
+
+.bon{
+	clear: both;
 
 }
 
-.chat:after{
-background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Keller-3.31/master/Assets/chat.png?token=AUEZCU6VXWY3EYNTWR342W3AX5DSM);
-	content: "";
-	display: inline-block;
-	background-repeat: no-repeat;
-	height: 50px;
-	width: 50px;
+img{
+	object-fit: cover;
+	width: 500px;
+	height: 300px;
+}
+
+.boite{
+float: left;
+margin-bottom: 1em;
+margin-right: 1.5em;
+margin-top: 1.5em;
+}
+
+.legend, .legend1{
+	padding: 0.30em;
+	background-color: white;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	object-fit: cover;
 }
